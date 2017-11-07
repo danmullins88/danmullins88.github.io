@@ -1,0 +1,31 @@
+body{
+	background: white;
+}
+
+h1 {
+		font-family: "Helvetica", monospace;
+		color: red;
+		font-style: bold;
+		font-size: 50px;
+		line-height: 2em
+	}
+
+p {
+		font-family: "Helvetica", monospace;
+		font-size: 17px;
+		line-height: 2em;
+	}
+
+
+div.output {
+	font-family: "Helvetica";
+	font-style: bold;
+	font-size: 20px;
+	line-height: 2em;
+	margin-right: 45px;
+}
+
+
+ul {
+	list-style-type: none;
+}
