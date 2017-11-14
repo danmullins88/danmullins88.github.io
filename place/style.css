@@ -1,0 +1,45 @@
+body{
+	background: #678cbf;
+}
+
+h1{
+	font-family: Arial;
+	color: white;
+}
+
+#castle{
+	size: width: 100px;height: 200px;
+	
+
+}
+
+#one{
+	size: width: 200px;height:300px;
+	
+}
+
+#two{
+	size: width: 200px;height:300px;
+	
+}
+
+#three{
+	size: width: 200px;height:300px;
+	
+}
+
+#four{
+	size: width: 200px;height:300px;
+}
+#five{
+	size: width: 200px;height:300px;
+}
+#six{
+	size: width: 200px;height:300px;
+		
+}
+
+#hill{
+	size: width: 550px;height:700px;
+	
+}
