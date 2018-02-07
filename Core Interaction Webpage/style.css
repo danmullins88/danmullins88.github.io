@@ -1,6 +1,68 @@
-body {
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: white;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.8em; 
+}
+h2{ font-size: 5em; 
+font-family: Helvetica;
+}
+a{
+	color: white;
 
-font-family: 'Helvetica', sans-serif;
-background: black;
-color: white;
+}
+	a:hover
+	
+
+
+body{
+    font-family: Helvetica; 
+    font-size: 100%; 
+    line-height: 1.5em; 
+}
+
+#page{ margin: 30px;}
+
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: left;
+	float: left;
+	font-family: Helvetica;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 100px;
+		}
+			#nav ul li a{
+				padding: 10px;
+				
+			}
+			#nav ul li a:hover{
+				background-color: rgb(138, 150, 170);
+				
+			}
+			#nav ul li a:active{ background-color: rgb(146, 168, 204); }
+
+#content{
+	margin: 30px 0;
+	padding: 20px;
+	clear: both;
+	color: white;
+}
+
+.image {
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-13.jpg);
+  height: 110%;
+  width: 110%;
+  left: -10px;
+  position: fixed;
+  top: -10px;
+  background-size: 100%;
+  background-position: center;
+
 }
