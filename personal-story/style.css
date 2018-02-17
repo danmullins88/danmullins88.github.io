@@ -1,23 +1,40 @@
 body{
-background: black;
+background: white;
 }
-p{ line-height: 1em; 
-color: white;
-   top: 200px; 
+
+
+p{ line-height: 1em;
+  font-family: "Helvetica";
+  font-weight: bold;
+position: absolute; 
+color: black;
+   top: 140%; 
    left: 0; 
    width: 100%;
-   font-size: 1.8em 
+   font-size: 2em 
 
    }
 h1, h2, h3, h4{
     color: white;
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 1.5em;
 	margin: 0 0 .5em 0;
 }
-h1{ font-size: 1.8em; 
+h1{ font-size: 10em; 
 }
 
 a{
-	font-size: 2em
+  position: absolute;
+  top: 200%;
+  left: 33%;
+	font-family: "Helvetica";
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+
+img{
+position: absolute;
+left: 10%;
+
 }

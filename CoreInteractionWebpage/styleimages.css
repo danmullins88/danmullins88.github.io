@@ -3,3 +3,16 @@ body{
 background: black;
 
 }
+
+.gallery {
+    margin: 4px;
+    border: 1px solid pink;
+    float: left;
+    width: 700px;
+}
+
+    .gallery img {
+    width: 100%;
+    height: auto;
+
+}

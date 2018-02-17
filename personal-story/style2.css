@@ -1,0 +1,35 @@
+body{
+background: white;
+}
+
+
+p{ line-height: 1em;
+  font-family: "Helvetica";
+  font-weight: bold;
+position: absolute; 
+color: black;
+   top: 10%; 
+   left: 13%; 
+   width: 70%;
+   font-size: 2em 
+
+   }
+
+a{
+  position: absolute;
+  top: 90%;
+  left: 5%;
+	font-family: "Helvetica";
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+
+img{
+position: absolute;
+top: 25%;
+left: 55%;
+width: 500px;
+height: 500px;
+
+}
