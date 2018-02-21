@@ -23,11 +23,11 @@ header {
 }
 
 img {
-width: 300px;
+width: 150px;
 height:;
 }
 
-img { max-width: 700%; }
+img { max-width: 500%; }
 
 
 @media (min-device-width:800px) {
