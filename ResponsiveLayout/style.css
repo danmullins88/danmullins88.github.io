@@ -12,21 +12,19 @@ html { font-size:100%; }
 
 
 header {
-  background: #a0a0a0;
-  padding: 10px;
-  color: #fff;
-  position: absolute;
-  left: 40%;
-  top: 5%;
+  color: black;
+  font-family: "Andale Mono";
+  font-size: 3em;
 }
 
 nav {
+  font-family: "Andale Mono";
   float: left;
   width: 150px;
   background: #aaa;
   padding: 15px;
   position: absolute;
-top: 50%;
+top: 80%;
 }
 
 nav a {
@@ -42,10 +40,10 @@ ul {
 }
 
 article {
+  font-family: "Andale Mono";
   padding: 20px 10px;
-  margin-left: 180px;
+  margin-left: 100px;
   position: absolute;
-left: 20%;
 top: 30%;
 }
 
