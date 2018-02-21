@@ -22,14 +22,18 @@ header {
 
 }
 
+img {
+width: 150px;
+height:;
+}
+
 nav {
   font-family: "Andale Mono";
   float: left;
-  width: 150px;
   background: #aaa;
  
   position: absolute;
-top: 80%;
+top: 50%;
 }
 
 nav a {
