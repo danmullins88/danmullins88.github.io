@@ -19,7 +19,7 @@ header {
 
 .navigation {
 
-  
+
 }
 
 nav {
@@ -49,12 +49,13 @@ article {
   padding: 20px 10px;
   margin-left: 100px;
   position: absolute;
-top: 30%;
+top: 40%;
 }
 
 footer {
+  font-family: "Andale Mono";
+  font-size: 0.75em;
   padding: 10px;
-  background: #f1f1f1;
   clear: both;
   position: absolute;
 top: 90%;
