@@ -1,0 +1,58 @@
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+html { font-size:100%; }
+
+
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+
+
+header {
+  background: #a0a0a0;
+  padding: 10px;
+  color: #fff;
+  position: absolute;
+  left: 40%;
+  top: 5%;
+}
+
+nav {
+  float: left;
+  width: 150px;
+  background: #aaa;
+  padding: 15px;
+  position: absolute;
+top: 50%;
+}
+
+nav a {
+  color: #c00;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+
+}
+
+article {
+  padding: 20px 10px;
+  margin-left: 180px;
+  position: absolute;
+left: 20%;
+top: 30%;
+}
+
+footer {
+  padding: 10px;
+  background: #f1f1f1;
+  clear: both;
+  position: absolute;
+top: 90%;
+}
