@@ -23,9 +23,18 @@ header {
 }
 
 img {
-width: 150px;
+width: 300px;
 height:;
 }
+
+img { max-width: 700%; }
+
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+
 
 nav {
   font-family: "Andale Mono";
