@@ -116,7 +116,17 @@ a:hover {
   right: 4.1%;
   font-weight:bold;
 }
+.beetlejuice {
+position: absolute center;
+  font-family: 'Adobe Garamond Pro', cursive;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  top: 0%;
+  bottom: 10%;
+font-weight:bold;
 
+}
 
 .next {
  writing-mode: tb-rl;

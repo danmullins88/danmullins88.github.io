@@ -1,0 +1,77 @@
+body {
+background-color: black;
+}
+
+.para1 {
+	position: absolute;
+	font-family: 'Adobe Garamond Pro', cursive;
+	color: white;
+	font-size: 1.5em;
+	top: 43%;
+	width: 40%;
+  left: 47%;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+
+	.nav ul{}
+		.nav ul li{
+			display: inline-block;
+			height: 100px;
+			
+		}
+			.nav ul li a:hover{
+				background-color: #FCFCB3;
+				
+			}
+			.nav ul li a:active{ background-color: #FCFCB3; }
+
+
+.previous {
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+	position: absolute;
+	font-family: 'Adobe Garamond Pro', cursive;
+	color: white;
+	font-size: 3.6em;
+	top: 60%;
+	width: 100%;
+  right: 3.5%;
+  font-weight:bold;
+}
+.beetlejuice {
+position: absolute center;
+	font-family: 'Adobe Garamond Pro', cursive;
+	color: white;
+	font-size: 3.6em;
+	top: 0%;
+	text-align: center;
+  left: 35%;
+  font-weight:bold;
+}
+
+.next {
+ writing-mode: tb-rl;
+position: absolute;
+	font-family: 'Adobe Garamond Pro', cursive;
+	color: white;
+	font-size: 3.6em;
+	top: 40%;
+	width: 100%;
+  left: 3.5%;
+  font-weight:bold;
+}
+
+.video {
+  position: absolute;
+	top: 45%;
+	text-align: center;
+  left: 15%; 
+}
