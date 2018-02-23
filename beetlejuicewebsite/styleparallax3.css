@@ -26,11 +26,11 @@ body {
 
 .parallax__layer--para1 {
   width: 700px;
-  transform: translateZ(0px);
+  transform: translateZ(-0.2px);
   position: absolute;
   bottom: 0;
   left: 10%;
-  top: 45%;
+  top: 40%;
 	right: 0%;
   z-index: 10;
 }
@@ -41,7 +41,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 35%;
-  top: 90%;
+  top: 80%;
 	right: 45%;
   z-index: 10;
 }
@@ -53,7 +53,7 @@ body {
   bottom: 0;
   left: 15%;
 	right: 0%;
-  top: 160%;
+  top: 150%;
   z-index: 10;
 }
 
