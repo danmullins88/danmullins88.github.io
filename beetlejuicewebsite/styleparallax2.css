@@ -26,11 +26,11 @@ body {
 
 .parallax__layer--para1 {
   width: 700px;
-  transform: translateZ(0px);
+  transform: translateZ(-0.2px);
   position: absolute;
   bottom: 0;
   left: 10%;
-  top: 45%;
+  top: 25%;
 	right: 0%;
   z-index: 10;
 }
@@ -41,30 +41,30 @@ body {
   position: absolute;
   bottom: 0;
   left: 35%;
-  top: 90%;
-	right: 45%;
+  top: 75%;
+	right: 50%;
   z-index: 10;
 }
 
 .parallax__layer--para3 {
-  width: 900px;
-  transform: translateZ(-0.10px);
+  width: 40%;
+  transform: translateZ(-0.5px);
   position: absolute;
   bottom: 0;
-  left: 15%;
+  left: 5%;
 	right: 0%;
-  top: 160%;
+  top: 120%;
   z-index: 10;
 }
 
 .parallax__layer--para4 {
-  width: 900px;
-  transform: translateZ(-0.10px);
+  width: 40%;
+  transform: translateZ(0.3px);
   position: absolute;
   bottom: 0;
-  left: 15%;
+  left: 40%;
   right: 0%;
-  top: 190%;
+  top: 150%;
   z-index: 10;
 }
 
