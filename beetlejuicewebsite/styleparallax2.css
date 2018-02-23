@@ -45,6 +45,17 @@ body {
   z-index: 10;
 }
 
+.parallax__layer--para4 {
+  width: 900px;
+  transform: translateZ(-0.10px);
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  right: 0%;
+  top: 190%;
+  z-index: 10;
+}
+
 img{
   width: 100%;
   height: auto;
