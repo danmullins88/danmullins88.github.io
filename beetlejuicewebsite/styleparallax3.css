@@ -12,6 +12,18 @@ body {
   overflow-y: auto;
 }
 
+.parapara ul{}
+    .parapara ul li{
+      display: inline-block;
+      height: 100px;
+      
+    }
+      .parapara ul li a:hover{
+        background-color: #FCFCB3;
+        
+      }
+      .parapara ul li a:active{ background-color: #FCFCB3; }
+
 .parallax__layer--para1 {
   width: 700px;
   transform: translateZ(0px);

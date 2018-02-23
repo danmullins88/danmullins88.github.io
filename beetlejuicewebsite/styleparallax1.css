@@ -12,13 +12,25 @@ body {
   overflow-y: auto;
 }
 
+.parapara ul{}
+    .parapara ul li{
+      display: inline-block;
+      height: 100px;
+      
+    }
+      .parapara ul li a:hover{
+        background-color: #FCFCB3;
+        
+      }
+      .parapara ul li a:active{ background-color: #FCFCB3; }
+
 .parallax__layer--para1 {
   width: 700px;
-  transform: translateZ(0px);
+  transform: translateZ(-0.15px);
   position: absolute;
   bottom: 0;
   left: 10%;
-  top: 45%;
+  top: 35%;
 	right: 0%;
   z-index: 10;
 }
@@ -29,20 +41,23 @@ body {
   position: absolute;
   bottom: 0;
   left: 35%;
-  top: 90%;
+  top: 75%;
 	right: 45%;
   z-index: 10;
 }
 
 .parallax__layer--para3 {
+
   width: 900px;
-  transform: translateZ(-0.10px);
+  transform: translateZ(0.1px);
   position: absolute;
   bottom: 0;
   left: 15%;
 	right: 0%;
-  top: 160%;
+  top: 120%;
   z-index: 10;
+
+
 }
 
 img{
@@ -124,7 +139,7 @@ position: absolute;
   font-family: 'Adobe Garamond Pro', cursive;
   color: white;
   font-size: 2em;
-  top: 165%;
+  top: 150%;
   width: 100%;
   text-align: left;
   left: 3.5%;
