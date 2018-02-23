@@ -7,8 +7,8 @@ background-color: black;
 	font-family: 'Adobe Garamond Pro', cursive;
 	color: white;
 	font-size: 1.5em;
-	top: 43%;
-	width: 40%;
+	top: 40%;
+	width: 30%;
   left: 47%;
 }
 
@@ -71,7 +71,7 @@ position: absolute;
 
 .video {
   position: absolute;
-	top: 45%;
+	top: 40%;
 	text-align: center;
-  left: 15%; 
+  left: 30%; 
 }
