@@ -1,0 +1,44 @@
+body {
+    background-size: 100%;
+    color: white;
+    font-size: 14px;
+    
+}
+
+h1 {
+  font-family: Courier, sans-serif;
+  font-size: 6em;
+    font-weight: normal;
+  
+position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+
+}
+
+h2 {
+  font-family: Courier, sans-serif;
+  font-size: 6em;
+  font-weight: 1;
+    font-weight: normal;
+position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #ffea00;
+}
