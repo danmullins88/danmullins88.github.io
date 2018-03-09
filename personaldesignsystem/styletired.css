@@ -22,6 +22,7 @@ body {
   text-align: center;
 }
 sub {
+  font-family: 'Courier', cursive;
     color:  #a4f2ff;
   position: absolute;
   top: 35%;
@@ -30,6 +31,7 @@ sub {
   animation: zZ 2.5s infinite linear;
 }
 sup {
+  font-family: 'Courier', cursive;
     color:  #a4f2ff;
   position: absolute;
   top: 35%;

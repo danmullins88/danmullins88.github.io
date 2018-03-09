@@ -28,8 +28,24 @@ a:visited {
     color: white;
 }
 a:hover {
-    color: #ffea00;
+    color: black;
 }
+
+   a{}
+        a{
+            display: inline-block;
+            height: auto;
+            
+        }
+            a:hover{
+                background-color: #ffea00;
+                
+            }
+            a:active{ background-color: #ffea00; }
+
+
+
+
 
 .next a {
     color: black;
