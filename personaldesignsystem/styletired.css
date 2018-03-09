@@ -1,0 +1,115 @@
+body {
+  margin: 6em;
+  background-color: black;
+}
+
+.moon {
+
+  margin: 0 auto;
+  width: 10em;
+  height: 10em;
+  box-shadow: 25px 0 0 4px #ffea00;
+  border-radius: 100%;
+  position: absolute;
+  top: 40%;
+  left: 43%;
+}
+
+
+
+
+body {
+  text-align: center;
+}
+sub {
+    color:  #a4f2ff;
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  line-height: 1px;
+  animation: zZ 2.5s infinite linear;
+}
+sup {
+    color:  #a4f2ff;
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  line-height: 1px;
+  animation: zZz 4s infinite linear;
+}
+@keyframes zZ {
+  0% {
+    opacity: 0;
+    font-size: 1px;
+  }
+  50% {
+    opacity: 1;
+    font-size: 30px;
+    padding-left: 30px;
+  }
+  100% {
+    opacity: 0;
+    font-size: 80px;
+    padding-left: 40px;
+  }
+}
+@keyframes zZz {
+  0% {
+    opacity: 0;
+    font-size: 1px;
+  }
+  50% {
+    opacity: 0;
+    font-size: 1px;
+  }
+  75% {
+    opacity: 1;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  100% {
+    opacity: 0;
+    font-size: 80px;
+    padding-left: 40px;
+  }
+}
+
+
+
+
+
+
+
+.next a {
+    color: white;
+    text-decoration: none;
+}
+.next a:hover {
+    color: black;
+}
+
+    .nav ul{}
+        .nav ul li{
+            display: inline-block;
+            height: 100px;
+            
+        }
+            .nav ul li a:hover{
+                background-color: #ffea00;
+                
+            }
+            .nav ul li a:active{ background-color: #ffea00; }
+
+
+.next {
+ writing-mode: tb-rl;
+position: fixed;
+    font-family: 'Courier', cursive;
+    color: white;
+    font-size: 3em;
+    top: 40%;
+    width: 100%;
+  left: 3.5%;
+  font-weight: ;
+}
+

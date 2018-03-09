@@ -42,3 +42,74 @@ a:visited {
 a:hover {
     color: #ffea00;
 }
+
+.next a {
+    color: black;
+    text-decoration: none;
+}
+.next a:hover {
+    color: black;
+}
+
+.previous a {
+    color: black;
+    text-decoration: none;
+}
+.previous a:hover {
+    color: black;
+}
+
+.beetlejuice a {
+    color: black;
+    text-decoration: none;
+}
+.beetlejuice a:hover {
+    color: black;
+}
+
+    .nav ul{}
+        .nav ul li{
+            display: inline-block;
+            height: 100px;
+            
+        }
+            .nav ul li a:hover{
+                background-color: #ffea00;
+                
+            }
+            .nav ul li a:active{ background-color: #ffea00; }
+
+
+.next {
+ writing-mode: tb-rl;
+position: fixed;
+    font-family: 'Courier', cursive;
+    color: white;
+    font-size: 3em;
+    top: 40%;
+    width: 100%;
+  left: 3.5%;
+  font-weight: ;
+}
+
+.previous {
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  position: absolute;
+  font-family: 'Courier', cursive;
+  color: white;
+  font-size: 3em;
+  top: 60%;
+  width: 100%;
+  right: 3.5%;
+  font-weight:;
+}
+.beetlejuice {
+position: absolute;
+  font-family: 'Courier', cursive;
+  color: white;
+  font-size: 3em;
+  top: -6%;
+  left: 41%;
+  font-weight:;
+}
