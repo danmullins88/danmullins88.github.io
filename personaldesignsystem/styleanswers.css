@@ -6,10 +6,11 @@ body {
 }
 
 p {
-  font-family: Courier, sans-serif;
+  font-family: 'Courier', sans-serif;
   font-size: 2.5em;
     font-weight: normal;
     color: black;
+    width: 85%;
   
 position: absolute;
         top: 5%;
@@ -20,7 +21,7 @@ position: absolute;
 
 
 a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 a:visited {
@@ -28,4 +29,37 @@ a:visited {
 }
 a:hover {
     color: #ffea00;
+}
+
+.next a {
+    color: black;
+    text-decoration: none;
+}
+.next a:hover {
+    color: black;
+}
+
+    .nav ul{}
+        .nav ul li{
+            display: inline-block;
+            height: 100px;
+            
+        }
+            .nav ul li a:hover{
+                background-color: #ffea00;
+                
+            }
+            .nav ul li a:active{ background-color: #ffea00; }
+
+
+.next {
+ writing-mode: tb-rl;
+position: fixed;
+    font-family: 'Courier', cursive;
+    color: white;
+    font-size: 3.5em;
+    top: 40%;
+    width: 100%;
+  left: 3.5%;
+  font-weight:;
 }

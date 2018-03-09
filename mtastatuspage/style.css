@@ -1,0 +1,119 @@
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, q, dl, dt, dd, ol, ul, li, fieldset, form, img, label, legend, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body{
+
+	background: white;
+}
+
+
+.span-12 {
+
+	position: absolute;
+	font-family: 'Helvetica', cursive;
+	color: black;
+	font-size: 6em;
+	top: 0%;
+	width: 100%;
+  left: 0%;
+  font-weight:1px;
+}
+
+.selectedStatusTab{
+font-family: 'Helvetica', cursive;
+	color: black;
+	font-size: 6em;
+	position: absolute;
+	top: 15%;
+	font-weight: bold;
+
+}
+
+.subwayCategorysubway_Delays2 {
+ font-family: 'Helvetica'; text-decoration: none;
+ position: absolute;
+ left: 46.5%;
+ top: 40%;
+ z-index: 10;
+ font-size: 2em;
+ font-weight:bold;
+
+
+}
+
+.subwayCategorysubway_PlannedWork {
+ font-family: 'Helvetica';
+ position: absolute;
+ left: 42%;
+ top: 50%;
+ z-index: 10;
+  font-size: 2em;
+  font-weight:bold;
+}
+
+.subwayCategorysubway_GoodService {
+ font-family: 'Helvetica';
+ position: absolute;
+ left: 42.5%;
+ top: 60%;
+ z-index: 10;
+  font-size: 2em;
+  font-weight:bold;
+}
+
+ul {
+	 writing-mode: tb-rl;
+	 text-decoration: none;
+position: fixed;
+	font-family: 'Helvetica', cursive;
+	color: white;
+	font-size: 3.6em;
+	top: 30%;
+	width: 100%;
+  left: -1%;
+  font-weight:bold;
+}
+
+#subwayDIV {
+
+	font-family: 'Helvetica';
+}
+
+@import "compass/css3";
+
+.circle {
+
+  background: blue;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border-radius: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+}
+
+.circle:hover {
+  background: #070338;
+}
+
+
+.circle {
+  -webkit-animation:grow 5s;
+
+}
+
+@-webkit-keyframes grow {
+ 0% {
+-webkit-transform: scale( 0 );-moz-transform: scale( 0 );-o-transform: scale( 0 );-ms-transform: scale( 0 );transform: scale( 0 );
+  }
+  
+  100% {
+  -webkit-transform: scale( 1 );-moz-transform: scale( 1 );-o-transform: scale( 1 );-ms-transform: scale( 1 );transform: scale( 1 );
+  }
+}
