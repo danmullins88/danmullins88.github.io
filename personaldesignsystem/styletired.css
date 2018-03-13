@@ -15,7 +15,19 @@ body {
   left: 43%;
 }
 
-
+.moon-wrapper {
+  margin: 0 auto;
+  width: 500px;
+  overflow: hidden;
+  font-size: 0;
+}
+.moon {
+  max-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.moon-wrapper:hover .moon {
+  transform: scale(1.2);
+}
 
 
 body {

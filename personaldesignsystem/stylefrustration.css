@@ -1,0 +1,103 @@
+
+body {
+  background-image: url(http://klevinskaitej.files.wordpress.com/2012/11/noise1.gif);
+  
+}
+
+#bg {
+  
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+}
+    
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+*{
+    transition: all 0.6s;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    font-family: 'Baskerville', sans-serif;
+    color: black;
+    margin: 0;
+}
+
+#main {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.fof {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof h1 {
+  font-size: 50px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type .5s alternate infinite;
+}
+
+@keyframes type {
+  from {
+    box-shadow: inset -3px 0px 0px black;
+  }
+  to {
+    box-shadow: inset -3px 0px 0px transparent;
+  }
+}
+
+
+.next a {
+    color: black;
+    text-decoration: none;
+}
+.next a:hover {
+    color: black;
+}
+
+    .nav ul{}
+        .nav ul li{
+            display: inline-block;
+            height: 100px;
+            
+        }
+            .nav ul li a:hover{
+                background-color: #ffea00;
+                
+            }
+            .nav ul li a:active{ background-color: #ffea00; }
+
+
+.next {
+ writing-mode: tb-rl;
+position: fixed;
+    font-family: 'Courier', cursive;
+    color: white;
+    font-size: 3em;
+    top: 40%;
+    width: 100%;
+  left: 3.5%;
+  font-weight:;
+}
+
+
