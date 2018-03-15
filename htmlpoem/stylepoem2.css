@@ -1,12 +1,18 @@
 @charset "utf-8";
 
 
-@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Rye&text=Dd');
+
+@import url('https://fonts.googleapis.com/css?family=Arbutus&text=ABCabc');
+
+@import url('https://fonts.googleapis.com/css?family=McLaren&text=MNmn');
+
+@import url('https://fonts.googleapis.com/css?family=Ribeye&text=Oo');
 
 
 body {
 	background-color: black;
-  font: 100%/1.5em Georgia, Times New Roman, Times, serif;
   margin: 0;
 }
 
@@ -22,7 +28,7 @@ p {
 
 #poem {
 	color: white;
-	font-family: Georgia;
+	font-family: Rye, Arbutus, McLaren, Ribeye;
 	margin: 50px auto;
 	position: relative;
 	width: 500px;
@@ -64,6 +70,7 @@ a {
 	font-size: 2em;
 	color: gold;
 	text-decoration: none;
+	font-family: Rye, Arbutus, McLaren, Ribeye;
 }
 
 a:hover {
