@@ -24,6 +24,16 @@
         }
       });
     }
+    anime({
+  targets: '.box',
+  translateX: '30rem',
+  scale: [.50, .70],
+  delay: function(el, index) {
+    return index * 40;
+  },
+  direction: 'alternate',
+  loop: true
+});
   });
 
   $('#section-2').one('inview', function(event, isInView) {
@@ -90,24 +100,13 @@
   $('#section-3').one('inview', function(event, isInView) {
     $(event.target).addClass('run-animation');
 
-    var domAttributes = anime({
+
+var domAttributes = anime({
   targets: '#domAttributes input',
-  value: 10000000000000000000,
+  value: 100,
   round: 1,
   easing: 'easeInOutExpo'
 });
-
-    var playPause = anime({
-  targets: '#playPause .el',
-  translateX: 250,
-  delay: function(el, i, l) { return i * 100; },
-  direction: 'alternate',
-  loop: true,
-  autoplay: false
-});
-
-document.querySelector('#playPause .play').onclick = playPause.play;
-document.querySelector('#playPause .pause').onclick = playPause.pause;
 
 
   });
@@ -115,16 +114,57 @@ document.querySelector('#playPause .pause').onclick = playPause.pause;
   $('#section-4').one('inview', function(event, isInView) {
     $(event.target).addClass('run-animation');
 
-var cssSelector = anime({
-  targets: '#cssSelector .el',
-  translateX: 250
+anime({
+  targets: '.one',
+  translateX: '30rem',
+  scale: [.50, .70],
+  delay: function(el, index) {
+    return index * 40;
+  },
+  direction: 'alternate',
+  loop: true
 });
 
+anime({
+  targets: '.two',
+  translateX: '30rem',
+  scale: [.50, .50],
+  delay: function(el, index) {
+    return index * 40;
+  },
+  direction: 'alternate',
+  loop: true
+});
+
+anime({
+  targets: '.three',
+  translateX: '30rem',
+  scale: [.50, .70],
+  delay: function(el, index) {
+    return index * 40;
+  },
+  direction: 'alternate',
+  loop: true
+});
 
   });
 
   $('#section-5').one('inview', function(event, isInView) {
     $(event.target).addClass('run-animation');
+
+var bouncingBall = anime({
+    targets: '.ball',
+    translateY: '50vh',
+    duration: 800,
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInCubic',
+    scaleX: {
+        value: 1.05,
+        duration: 150,
+        delay: 268
+    }
+});
 
   });
 

@@ -52,18 +52,83 @@ h1,h2,h3,h4,h5,h6 {
 #section-3 {
   background: #BC1A76;
 
+}
+
+#domAttributes {
+
 
 }
 
-#section-4 {
+.text-output {
+background: #BC1A76;
+  width: 65rem;
+  height: 45rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  mix-blend-mode: lighten;
+  font-size: 40em;
+  color: lightblue;
+}
+
+
+#section-4{
   background: #98095A;
- 
-  z-index: 20;
 }
+
+
+.two {
+  background: linear-gradient(#98095A, yellow, #98095A);
+   width: 15em;
+  height: 25em;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 500%;
+}
+
+.one {
+  background: linear-gradient(#98095A, yellow, #98095A);
+  width: 15em;
+  height: 25em;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 500%;
+}
+
+.three {
+  background: linear-gradient(#98095A, yellow, #98095A);
+   width: 15em;
+  height: 25em;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 500%;
+}
+
 
 #section-5 {
   background: #780044;
 }
+
+.wrapper {
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: linear-gradient(to bottom right, red, yellow);
+    border-radius: 50%;
+}
+
+
 
 .log {
   align-items: center;
