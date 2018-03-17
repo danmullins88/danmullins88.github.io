@@ -114,38 +114,45 @@ var domAttributes = anime({
   $('#section-4').one('inview', function(event, isInView) {
     $(event.target).addClass('run-animation');
 
-anime({
-  targets: '.one',
-  translateX: '30rem',
-  scale: [.50, .70],
-  delay: function(el, index) {
-    return index * 40;
-  },
-  direction: 'alternate',
-  loop: true
-});
+var headID = document.getElementsByTagName("head")[0];         
+var cssNode = document.createElement('link');
+var mousewidth = 15;
+cssNode.type = 'text/css';
+cssNode.rel = 'stylesheet';
+cssNode.href = 'http://www.zhereicome.com/experiments/statics/mouser.css';
+cssNode.media = 'screen';
+headID.appendChild(cssNode);
 
-anime({
-  targets: '.two',
-  translateX: '30rem',
-  scale: [.50, .50],
-  delay: function(el, index) {
-    return index * 40;
-  },
-  direction: 'alternate',
-  loop: true
-});
 
-anime({
-  targets: '.three',
-  translateX: '30rem',
-  scale: [.50, .70],
-  delay: function(el, index) {
-    return index * 40;
-  },
-  direction: 'alternate',
-  loop: true
-});
+var image = new Image();
+
+image.onLoad = function() {}
+
+image.src="http://prescottcomputerguy.com/screenflow/ScreenFlowCursors/pcg/finger.png";
+
+image.style.position = "absolute";
+image.style.top = "0";
+image.style.left = "0";
+image.style.zIndex = "999999";
+
+
+var body = document.getElementsByTagName("body")[0];
+
+body.appendChild(image);
+
+document.onmousemove = function(e) {
+  image.style.top = e.clientY + (window.pageYOffset || document.documentElement.scrollTop) + "px";
+  image.style.left = (e.clientX  + 2) + "px";
+}
+
+
+setInterval(function() {
+  console.log(mousewidth);
+  mousewidth += 1;
+  image.style.width = Math.random() * 400 + "px"; 
+}, 3000);
+
+
 
   });
 

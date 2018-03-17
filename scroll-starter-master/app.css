@@ -8,6 +8,8 @@
    height: 100%;
  }
 
+ @import "compass/css3";
+
 body {
   background: #000;
   color: #fff;
@@ -73,40 +75,27 @@ background: #BC1A76;
 
 #section-4{
   background: #98095A;
+  font-size: 5em;
 }
 
 
-.two {
-  background: linear-gradient(#98095A, yellow, #98095A);
-   width: 15em;
-  height: 25em;
-  margin-top: auto;
-  margin-bottom: auto;
-  border-radius: 500%;
+body, html {
+  cursor: none;
 }
 
-.one {
-  background: linear-gradient(#98095A, yellow, #98095A);
-  width: 15em;
-  height: 25em;
-  margin-top: auto;
-  margin-bottom: auto;
-  border-radius: 500%;
-}
-
-.three {
-  background: linear-gradient(#98095A, yellow, #98095A);
-   width: 15em;
-  height: 25em;
-  margin-top: auto;
-  margin-bottom: auto;
-  border-radius: 500%;
+img {
+  width: 15px;
+  @include transition;
+  @include transition-property(width);
+  @include transition-duration(2000ms);
+  
 }
 
 
 #section-5 {
   background: #780044;
 }
+
 
 .wrapper {
     height: 80vh;
@@ -124,7 +113,13 @@ background: #BC1A76;
     top: 20px;
     bottom: 0;
     left: calc(50% - 100px);
-    background: linear-gradient(to bottom right, red, yellow);
+     box-shadow:
+    inset -40px -40px 100px #17d4cd,
+    inset 40px 40px 100px #9c4ca5,
+    inset -40px 100px 100px #fa4a71,
+    inset 40px -100px 100px #086df1,
+    inset -20px -100px 100px #086df1,
+    inset -0px 40px 100px #086ff2;
     border-radius: 50%;
 }
 
