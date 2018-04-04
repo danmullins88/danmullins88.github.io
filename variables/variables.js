@@ -25,8 +25,46 @@ document.getElementById("submit").addEventListener("click" , function() {
 		} else if (your_food == "sushi") {
 			greeting.innerHTML = '<img src="http://www.pngmart.com/files/3/Sushi-PNG-HD.png" />';
 		} else {
-			greeting.innerHTML = "Hi " + your_name + "!"
+			greeting.innerHTML = "Hi " + your_food + "!"
 		    greeting.style.color = "orange";
+		}
+
+
+
+
+
+});
+
+
+document.getElementById("submit").addEventListener("click" , function() {
+	var your_drink = document.getElementById("your_drink").value;
+	var greeting = document.getElementById("greeting");
+	
+	if (your_drink == "water" || your_drink == "Water") {
+		greeting.innerHTML = '<img src="https://www.cicis.com/media/1176/pizza_trad_pepperonibeef.png" />';
+		} else if (your_drink == "tea") {
+			greeting.innerHTML = '<img src="http://www.pngmart.com/files/3/Ice-Cream-Cone-PNG-Image.png" />';
+		} else if (your_drink == "coffee") {
+			greeting.innerHTML = '<img src="http://derwentparkpizza.com.au/wp-content/uploads/2016/07/Pasta-PNG.png" />';
+		} else if (your_drink == "orange juice") {
+			greeting.innerHTML = '<img src="https://simply-essentials.com/wp-content/uploads/2017/03/uncompromised_flavor.png" />';
+		} else if (your_drink == "beer") {
+			greeting.innerHTML = '<img src="http://www.freepngimg.com/download/burger/2-2-burger-free-download-png.png" />';
+		} else if (your_drink == "coke") {
+			greeting.innerHTML = '<img src="http://taqueriaelheredero.com/wp-content/uploads/2015/10/taco2.png" />';
+		} else if (your_drink == "wine") {
+			greeting.innerHTML = '<img src="http://www.freepngimg.com/download/bacon/8-2-bacon-png.png" />';
+		} else if (your_drink == "vodka") {
+			greeting.innerHTML = '<img src="https://images.eatthismuch.com/site_media/img/433548_Awesomekiwi_7c573ed6-b496-4ced-b536-d951689b1e44.png" />';
+		} else if (your_drink == "sangria") {
+			greeting.innerHTML = '<img src="http://pngriver.com/wp-content/uploads/2018/03/Download-Pancakes-PNG-Photos-413x279-362.png" />';
+		} else if (your_drink == "sake") {
+			greeting.innerHTML = '<img src="https://www.elchico.com/wp-content/uploads/2014/08/backgroundStory.png" />';
+		} else if (your_drink == "lemonade") {
+			greeting.innerHTML = '<img src="http://www.pngmart.com/files/3/Sushi-PNG-HD.png" />';
+		} else {
+			greeting.innerHTML = "Hi " + your_drink + "!"
+		    greeting.style.color = "lightblue";
 		}
 
 
