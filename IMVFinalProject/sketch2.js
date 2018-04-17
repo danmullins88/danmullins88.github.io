@@ -4,7 +4,7 @@ var yoff = 0.0
 
 function setup() {
   createCanvas(800,500);
-  song = loadSound("rockstar.mp3", loaded);
+  song = loadSound("themiddle.mp3", loaded);
   amp = new p5.Amplitude();
 
 }
@@ -30,7 +30,7 @@ stroke(255, 20, 90);
  var size = map(level, 0, 1, 0, 200);
 
   // Map noise value (between 0 and 1) to y-value of canvas
-    var y = map(level, noise(xoff, yoff), 0, 1, 400, 500);
+    var y = map(level, noise(xoff, yoff), 0, 1, 200, 300);
     // Set the vertex
     vertex(x, y); 
     xoff += 0.05;
@@ -44,9 +44,5 @@ stroke(255, 20, 90);
 
 }
 
-function mousePressed() {
-  setup();
-
-}
 
 
