@@ -3,7 +3,7 @@ background-color: black;
 
 }
 
-.TheHot10 a {
+.VisualGallery a {
   text-decoration: none;
  color: white;
 
@@ -11,60 +11,15 @@ background-color: black;
 
 
 
-.TheHot10 {
+.VisualGallery {
 	padding-top: 1%;
+
 position: absolute center;
 	font-family: 'Baskerville', cursive;
 	color: white;
 	font-size: 2em;
 	text-align: center;
   left: 35%;
-
-}
-
-.hot10list {
-	  padding: 10px 0;
-		  font-size: 3.25rem;
-		  	font-family: 'Baskerville', cursive;
-      font-weight:;
-position: absolute;
-  top: 200px;
-  left: 450px;
-}
-
-.hot10list ul {
-  list-style-type: none;
-  color: white;
-  position: absolute;
-}
-
-.hot10list li {
-width: 400px;
-line-height: 150px;
-
-
-}
-
-.hot10list2 {
-	  padding: 10px 0;
-		  font-size: 1.5rem;
-		  	font-family: 'Baskerville', cursive;
-      font-weight:;
-position: absolute;
-  top: 280px;
-  left: 560px;
-}
-
-.hot10list2 ul {
-  list-style-type: none;
-  color: white;
-  position: absolute;
-}
-
-.hot10list2 li {
-width: 400px;
-line-height: 150px;
-
 
 }
 
@@ -207,3 +162,27 @@ line-height: 150px;
 		          transform: scale(1.0, 1.0);
 		  opacity: 1;
 		}
+
+
+
+
+
+.gallery {
+    margin: 100px;
+    border: 1px solid white;
+    width: 700px;
+    position: relative;
+  top: 150px;
+  left: 50%;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+    .gallery img {
+    width: 100%;
+    height: auto;
+
+}
