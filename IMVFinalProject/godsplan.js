@@ -30,7 +30,7 @@ stroke(255, 20, 90);
  var size = map(level, 0, 1, 0, 200);
 
   // Map noise value (between 0 and 1) to y-value of canvas
-    var y = map(level, noise(xoff, yoff), 0, 1, 200, 300);
+    var y = map(level, noise(xoff, yoff), 0, 1, 600, 900);
     // Set the vertex
     vertex(x, y); 
     xoff += 0.05;
