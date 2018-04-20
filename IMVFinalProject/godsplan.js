@@ -1,45 +1,42 @@
-var song;
-var amp;
-var yoff = 0.0
+var soundFile;
+var fft;
+var fftBands = 1024;
 
-function setup() {
-  createCanvas(800,500);
-  song = loadSound("GodsPlan.mp3", loaded);
-  amp = new p5.Amplitude();
+var waveform = [];
 
+function preload() {
+  soundFormats('mp3');
+  soundFile = loadSound('GodsPlan');
 }
 
-function loaded (){
-  song.play();
-  draw();
+function setup() {
+  createCanvas(fftBands, 256);
+  noFill();
+
+  soundFile.loop();
+  fft = new p5.FFT(.99, fftBands);
+
+  p = createP('press any key to pause / play');
 }
 
 function draw() {
- background(0);
+  background(252,252,98);
 
-stroke(255, 20, 90);
-  noFill();
+  waveform = fft.waveform();
 
   beginShape();
-    
-  var xoff= 0;
-    
-  for (var x = 0; x <= width; x += 10) {
-  	 var level = amp.getLevel();
- console.log(level);
- var size = map(level, 0, 1, 0, 200);
-
-  // Map noise value (between 0 and 1) to y-value of canvas
-    var y = map(level, noise(xoff, yoff), 0, 1, 600, 900);
-    // Set the vertex
-    vertex(x, y); 
-    xoff += 0.05;
+  for (var i = 0; i< waveform.length; i++){
+    stroke(5);
+    strokeWeight(5);
+    vertex(i*2, map(waveform[i], -1, 1, height, 0) );
   }
-    
-  //Speed of moving waves
-  yoff += 0.008;
-  vertex(width, height);
-  vertex(0, height);
-  endShape(CLOSE);
+  endShape();
+}
 
+function keyPressed() {
+  if (soundFile.isPlaying() ) {
+    soundFile.pause();
+  } else {
+    soundFile.play();
+  }
 }
