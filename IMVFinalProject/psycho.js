@@ -22,7 +22,7 @@ var waveform = [];
 var r, g, b;
 
 function preload(){
-  song = loadSound('OneKiss.mp3');
+  song = loadSound('Psycho.mp3');
 }
 
 function setup() {
