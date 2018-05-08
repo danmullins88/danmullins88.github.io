@@ -22,7 +22,7 @@ var waveform = [];
 var r, g, b;
 
 function preload(){
-  song = loadSound('Psycho.mp3');
+  song = loadSound('parking.mp3');
 }
 
 function setup() {
