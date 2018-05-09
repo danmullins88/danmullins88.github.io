@@ -1,68 +1,61 @@
-p{ line-height: 1em; }
-h1, h2, h3, h4{
-    color: white;
-	font-weight: normal;
-	line-height: 1.5em;
-	margin: 0 0 .5em 0;
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: 
+overflow: hidden;
 }
-h1{ font-size: 1.8em; 
-}
-h2{ font-size: 5em; 
-font-family: Helvetica;
-}
-a{
-	color: white;
-
-}
-	a:hover
-	
-
 
 body{
-    font-family: Helvetica; 
-    font-size: 100%; 
-    line-height: 1.5em; 
+	background: black;
 }
 
-#page{ margin: 30px;}
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat');
 
-#nav{
-	width: 60%;
-	display: inline-block;
-	text-align: left;
-	float: left;
-	font-family: Helvetica;
-}
-	#nav ul{}
-		#nav ul li{
-			display: inline-block;
-			height: 100px;
+.TheHot10 a {
+  text-decoration: none;
+ color: white;
+
 		}
-			#nav ul li a{
-				padding: 10px;
-				
-			}
-			#nav ul li a:hover{
-				background-color: rgb(138, 150, 170);
-				
-			}
-			#nav ul li a:active{ background-color: rgb(146, 168, 204); }
 
-#content{
-	margin: 30px 0;
-	padding: 20px;
-	clear: both;
+
+
+.TheHot10 {
+	padding-top: 2%;
+	padding-bottom: 1%;
+position: absolute center;
+	font-family: 'Montserrat', sans-serif;
 	color: white;
-}
-
-.image {
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-13.jpg);
-  height: 110%;
-  width: 110%;
-  left: -10px;
-  position: fixed;
-  top: -10px;
-  background-size: 100%;
-  background-position: center;
+	font-weight: 500;
+	font-size: 2em;
+	text-align: center;
+  left: 35%;
 
 }
+
+.hot10list {
+	  padding: 10px 0;
+		  font-size: 3.25rem;
+		  	font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+position: absolute;
+  top: 290px;
+  left: 150px;
+  z-index: 1;
+}
+
+.hot10list ul {
+  list-style-type: none;
+  color: white;
+  position: absolute;
+  width: 1200px;
+line-height: 130px;
+z-index: 1;
+}
+
+.hot10list a {
+  text-decoration: none;
+ color: white;
+ -webkit-transition: color 0.3s ease;
+		  transition: color 0.3s ease;
+		}
