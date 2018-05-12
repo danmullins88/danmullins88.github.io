@@ -7,6 +7,7 @@ body{
 	color: black;
 }
 
+
 button{
 	background-color: lightblue;
 	font-family: 'East Sea Dokdo', cursive;
@@ -60,4 +61,3 @@ button:hover{
 	font-weight: 300;
 	text-transform: uppercase;
 }
-

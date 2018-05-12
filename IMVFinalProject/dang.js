@@ -1,12 +1,12 @@
-var NUMSINES = 20; // how many of these things can we do at once?
+var NUMSINES = 3; // how many of these things can we do at once?
 var sines = new Array(NUMSINES); // an array to hold all the current angles
 var rad; // an initial radius value for the central sine
 var i; // a counter variable
 
 // play with these to get a sense of what's going on:
-var fund = 0.1; // the speed of the central sine
-var ratio = 0.5; // what multiplier for speed is each additional sine?
-var alpha = 20; // how opaque is the tracing system
+var fund = 0.005; // the speed of the central sine
+var ratio = 3; // what multiplier for speed is each additional sine?
+var alpha = 70; // how opaque is the tracing system
 
 var trace = true; // are we tracing?
 
@@ -74,8 +74,8 @@ function draw() {
  var rms = random(analyzer.getLevel());
      //if (trace) ellipse(width/2, height/2, rms, rms); // draw with erad if tracing
 
-    var radius = random(50*rms)
-    if (trace) ellipse(0, 0, radius, radius); // draw with erad if tracing
+    var radius = random(40*rms)
+    if (trace) ellipse(random(100), random(100), radius, radius); // draw with erad if tracing
 
 
     pop(); // go down one level
