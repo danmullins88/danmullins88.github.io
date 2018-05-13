@@ -61,3 +61,151 @@ button:hover{
 	font-weight: 300;
 	text-transform: uppercase;
 }
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+
+body{
+	background-color: lightblue;
+	font-family: 'East Sea Dokdo', cursive;
+	text-align: center;
+	color: black;
+}
+
+
+button{
+	background-color: lightblue;
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 2em;
+	font-weight: 400;
+	border: 2px solid #FFF;
+	border-radius: 8px;
+	padding: 0px 25px 10px 25px;
+	color: #FFF;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	transition: color 0.5s, background-color 0.5s;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #FFF;
+	color: black;
+}
+
+#page-1, #page-2, #page-3, #page-4, #page-5, #finish{
+	display: none;
+}
+
+#start-page{
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 15%;
+}
+
+#start-page > h1{
+	font-size: 5em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.page{
+	font-size: 1.8em;
+	font-weight: 300;
+}
+
+
+
+.page > button{
+	font-size: 1em;
+	font-weight: 400;
+	margin: 100px 0 30px 0;
+}
+
+#finish{
+	font-size: 2.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+
+body{
+	background-color: lightblue;
+	font-family: 'East Sea Dokdo', cursive;
+	text-align: center;
+	color: black;
+}
+
+
+button{
+	background-color: lightblue;
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 3em;
+	font-weight: 400;
+	border: 2px solid #FFF;
+	border-radius: 8px;
+	padding: 0px 25px 10px 25px;
+	color: #FFF;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	transition: color 0.5s, background-color 0.5s;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #FFF;
+	color: black;
+}
+
+#page-1, #page-2, #page-3, #page-4, #page-5, #finish{
+	display: none;
+}
+
+#start-page{
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 15%;
+}
+
+#start-page > h1{
+	font-size: 10em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.page{
+	font-size: 3em;
+	font-weight: 300;
+}
+
+
+
+.page > button{
+	font-size: 1em;
+	font-weight: 400;
+	margin: 100px 0 30px 0;
+
+}
+
+#finish{
+	font-size: 5em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+
+}
+
+
