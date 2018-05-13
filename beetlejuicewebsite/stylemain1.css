@@ -2,9 +2,12 @@ body {
 background-color: black;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700');
+
 .para1 {
 	position: absolute;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
 	color: white;
 	font-size: 1.5em;
 	top: 43%;
@@ -35,25 +38,25 @@ a:hover {
 
 .beetlejuice {
 position: absolute center;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
 	color: white;
 	font-size: 3.6em;
 	top: 0%;
 	text-align: center;
   left: 35%;
-  font-weight:bold;
 }
 
 .next {
  writing-mode: tb-rl;
 position: absolute;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
 	color: white;
 	font-size: 3.6em;
 	top: 40%;
 	width: 100%;
   left: 3.5%;
-  font-weight:bold;
 }
 
 .video {
@@ -69,7 +72,8 @@ position: absolute;
 
 .para1 {
 	position: absolute;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
 	color: white;
 	font-size: 1.5em;
 	top: 20%;
@@ -100,25 +104,25 @@ a:hover {
 
 .beetlejuice {
 position: absolute center;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
 	color: white;
 	font-size: 2.2em;
 	top: 0%;
 	text-align: center;
   left: 35%;
-  font-weight:bold;
 }
 
 .next {
  writing-mode: tb-rl;
 position: absolute;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
 	color: white;
 	font-size: 2.2em;
 	top: 80%;
 	width: 100%;
   left: 3.5%;
-  font-weight:bold;
 }
 
 .video video{
