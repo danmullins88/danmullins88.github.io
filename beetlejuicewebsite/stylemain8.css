@@ -2,9 +2,12 @@ body {
 background-color: black;
 }
 
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,700');
+
 .para1 {
 	position: absolute;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'EB Garamond', serif;
+	font-weight: 400;
 	color: white;
 	font-size: 1.5em;
 	top: 43%;
@@ -38,7 +41,8 @@ a:hover {
   writing-mode: tb-rl;
   -webkit-transform: rotate(180deg);
 	position: absolute;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
 	color: white;
 	font-size: 3.6em;
 	top: 60%;
@@ -48,19 +52,20 @@ a:hover {
 }
 .beetlejuice {
 position: absolute center;
-	font-family: 'Adobe Garamond Pro', cursive;
+position: absolute center;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
 	color: white;
 	font-size: 3.6em;
 	top: 0%;
 	text-align: center;
-  left: 35%;
-  font-weight:bold;
 }
 
 .next {
  writing-mode: tb-rl;
 position: absolute;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
 	color: white;
 	font-size: 3.6em;
 	top: 40%;
@@ -74,4 +79,63 @@ position: absolute;
 	top: 30%;
 	text-align: center;
   left: 15%; 
+}
+
+@media (max-width: 480px) {
+
+
+.para1 {
+	position: absolute;
+	font-family: 'EB Garamond', serif;
+	font-weight: 400;
+	color: white;
+	font-size: 1.3em;
+	top: 35%;
+	width: 65%;
+  left: 7%;
+}
+
+.previous {
+display: none;
+}
+
+
+.beetlejuice {
+position: absolute;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
+	color: white;
+	font-size: 2.2em;
+	top: -3%;
+	text-align: none;
+}
+
+.next {
+ writing-mode: tb-rl;
+position: absolute;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
+	color: white;
+	font-size: 2.2em;
+	top: 72%;
+	width: 90%;
+  left: 10%;
+}
+
+.video {
+		top: 40%;
+	width: 90%;
+    height: auto;
+    left: 0%;
+}
+
+.video video{
+	width: 100%;
+    height: auto;
+	top: 50%;
+	left: 0%
+}
+
+
+
 }

@@ -2,6 +2,7 @@ body {
 background-color: black;
 }
 
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,700');
 
 a {
     color: white;
@@ -26,7 +27,8 @@ a:hover {
 
 .beetlejuice {
 position: absolute center;
-	font-family: 'Adobe Garamond Pro', cursive;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
 	color: white;
 	font-size: 3.6em;
 	top: 0%;
@@ -39,5 +41,35 @@ position: absolute center;
   position: absolute center;
 	top: 0%;
 	text-align: center;
+
+}
+
+@media (max-width: 480px) {
+
+
+.beetlejuice {
+position: absolute center;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
+	color: white;
+	font-size: 2.2em;
+	top: 0%;
+	text-align: center;
+  left: 35%;
+  font-weight:bold;
+}
+
+.video {
+  position: absolute center;
+	top: 40%;
+		text-align: none;
+}
+
+.video video{
+	width: 100%;
+    height: auto;
+}
+
+
 
 }

@@ -2,8 +2,11 @@ body {
   background: black;
 }
 
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,700');
+
 .parapara {
-  font-family: 'Adobe Garamond Pro', cursive;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
 	color: white;
 	font-size: 1.8em;
   perspective: 2px;
@@ -131,7 +134,8 @@ a:hover {
   writing-mode: tb-rl;
   -webkit-transform: rotate(180deg);
   position: absolute;
-  font-family: 'Adobe Garamond Pro', cursive;
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
   color: white;
   font-size: 2em;
   top: 59%;
@@ -144,7 +148,8 @@ a:hover {
 .next {
  writing-mode: tb-rl;
 position: absolute;
-  font-family: 'Adobe Garamond Pro', cursive;
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
   color: white;
   font-size: 2em;
   top: 165%;
@@ -153,4 +158,86 @@ position: absolute;
   left: 3.5%;
   font-weight:bold;
   
+}
+
+@media (max-width: 480px) {
+
+
+.parapara {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  color: white;
+  font-size: 1.5em;
+  perspective: 2px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer--para1 {
+  width: 90%;
+  transform: translateZ(-0.15px);
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  top: 10%;
+  right: 0%;
+  z-index: 10;
+}
+
+.parallax__layer--para2 {
+  transform: translateZ(0.5px);
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  top: 80%;
+  right: 0%;
+  z-index: 10;
+}
+
+.parallax__layer--para3 {
+
+  width: 80%;
+  transform: translateZ(0.1px);
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 0%;
+  top: 130%;
+  z-index: 10;
+
+
+}
+
+.parallax__layer--para4 {
+  width: 60%;
+  transform: translateZ(0.3px);
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  right: 0%;
+  top: 150%;
+  z-index: 10;
+}
+
+.previous {
+display: none;
+}
+
+.next {
+ writing-mode: tb-rl;
+position: absolute;
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  color: white;
+  font-size: 2.2em;
+  top: 190%;
+  width: 90%;
+  left: 10%;
+  padding-bottom: 15%;
+}
+
+
+
 }
